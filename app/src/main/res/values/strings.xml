@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ARDecor</string>
+    <string name="action_settings">Settings</string>
+    <string name="game_view_content_description">Game view</string>
+    <string name="rightAddress">Thiết kế nội thất\nNgay ở không gian\nCủa bạn</string>
+    <string name="gulity">Trải nghiệm công nghệ thực tế tăng cường\nđể khám phá, tùy chỉnh và chọn mua\nnội thất hoàn hảo, giúp bạn dễ dàng\nbiến đổi không gian sống\ntheo phong cách riêng biệt của mình.</string>
+    <string name="emailHint">Địa chỉ email</string>
+    <string name="passwordHint">Mật khẩu</string>
+    <string name="passwordConfirmHint">Nhập lại mật khẩu</string>
+    <string name="forgot_password">Quên mật khẩu</string>
+    <string name="view_in_ar">View in AR</string>
+    <string name="furniture_info_view_product">Xem sản phẩm</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="title_activity_save_placement">SavePlacementActivity</string>
+    <string name="save_placements">Lưu bố trí</string>
+    <string name="register">Đăng ký</string>
+    <string name="login">Đăng nhập</string>
+    <string name="start">Bắt đầu</string>
+    <string name="reset_password_title">Khôi phục mật khẩu</string>
+    <string name="reset_password_instruction">Chúng tôi sẽ gửi cho bạn đường dẫn khôi phục mật khẩu tới email của bạn</string>
+    <string name="cancel">Huỷ</string>
+    <string name="send_email">Gửi email</string>
+    <string name="displayNameHint">Tên hiển thị</string>
+    <string name="deleteAllContext">Xoá toàn bộ</string>
+</resources>

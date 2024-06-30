@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="14dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchDimensionsSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Hiển thị số đo"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/sf_pro_display"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingTop="16dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchScalingSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Phóng to, thu nhỏ"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/sf_pro_display"
+            app:layout_constraintTop_toBottomOf="@id/switchDimensionsSettings"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingTop="16dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchGizmoSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Hiển thị Gizmo"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/sf_pro_display"
+            app:layout_constraintTop_toBottomOf="@id/switchScalingSettings"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingTop="16dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchPlaneSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Hiển thị mặt phẳng"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/sf_pro_display"
+            app:layout_constraintTop_toBottomOf="@id/switchGizmoSettings"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingTop="16dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
